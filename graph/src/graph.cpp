@@ -5,6 +5,8 @@
 #include <iostream>
 #include <queue>
 #include <regex>
+using namespace pibt;
+
 using Time = std::chrono::steady_clock;
 
 Graph::Graph() {}

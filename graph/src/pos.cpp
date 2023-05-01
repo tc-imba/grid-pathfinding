@@ -3,6 +3,7 @@
 #include <cmath>
 #include <iomanip>
 #include <iostream>
+using namespace pibt;
 
 Pos::Pos(int _x, int _y) : x(_x), y(_y) {}
 

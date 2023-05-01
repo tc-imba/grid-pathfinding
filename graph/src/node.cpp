@@ -2,6 +2,7 @@
 
 #include <iomanip>
 #include <iostream>
+using namespace pibt;
 
 Node::Node(int _id, int x, int y)
     : id(_id), pos(Pos(x, y)), neighbor(std::vector<Node*>(0))
